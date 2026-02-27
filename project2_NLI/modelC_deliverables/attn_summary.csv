@@ -1,0 +1,9 @@
+mode,model_name,case,gold,pred,prob_entails,L_prem,L_hyp,mean_P->P,mean_P->H,mean_H->P,mean_H->H,H2P_mean,H2P_std,H2P_row_entropy_mean,H2P_row_entropy_std,H2P_col_entropy,top1_prem,top1_mass,top2_prem,top2_mass,top3_prem,top3_mass,fig_h2p,fig_full
+full,Full,TP,entails,entails,0.9972,24,7,0.0288,0.0000,0.0295,0.0000,0.0295,0.0124,3.1118,0.0071,3.1122,many,0.5807,lyme,0.2882,bite,0.2300,full_TP_y-entails_pred-entails_p-0.997_H2P.png,
+full,Full,FP,neutral,entails,0.8057,17,9,0.0356,0.0000,0.0335,0.0000,0.0335,0.0113,2.7744,0.0031,2.7750,solid,0.4530,becoming,0.4447,liquid,0.4307,full_FP_y-neutral_pred-entails_p-0.806_H2P.png,
+c2p_only,C→P only,TP,entails,entails,0.9298,24,7,0.0307,0.0000,0.0308,0.0000,0.0308,0.0013,3.1771,0.0000,3.1771,.,0.2310,do,0.2302,n't,0.2290,c2p_only_TP_y-entails_pred-entails_p-0.930_H2P.png,
+c2p_only,C→P only,FP,neutral,entails,0.8033,17,9,0.0381,0.0000,0.0364,0.0000,0.0364,0.0013,2.8325,0.0000,2.8325,at,0.3440,high,0.3425,temperatures,0.3395,c2p_only_FP_y-neutral_pred-entails_p-0.803_H2P.png,
+p2c_only,P→C only,TP,entails,entails,0.8035,24,7,0.0328,0.0000,0.0329,0.0000,0.0329,0.0091,3.1445,0.0015,3.1451,many,0.4541,lyme,0.3512,bite,0.2914,p2c_only_TP_y-entails_pred-entails_p-0.804_H2P.png,
+p2c_only,P→C only,FP,neutral,entails,0.8850,17,9,0.0369,0.0000,0.0373,0.0000,0.0373,0.0085,2.8078,0.0047,2.8084,dye,0.4926,ever,0.4890,becoming,0.4109,p2c_only_FP_y-neutral_pred-entails_p-0.885_H2P.png,
+c2p_p2c,C→P + P→C,TP,entails,entails,0.9160,24,7,0.0308,0.0000,0.0327,0.0000,0.0327,0.0033,3.1732,0.0011,3.1736,many,0.2880,lyme,0.2652,caused,0.2525,c2p_p2c_TP_y-entails_pred-entails_p-0.916_H2P.png,
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,17,9,0.0358,0.0000,0.0381,0.0000,0.0381,0.0051,2.8244,0.0006,2.8248,converts,0.4529,ever,0.3950,becoming,0.3941,c2p_p2c_FP_y-neutral_pred-entails_p-0.561_H2P.png,

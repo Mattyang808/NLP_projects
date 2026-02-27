@@ -1,0 +1,65 @@
+mode,model_name,case,gold,pred,prob_entails,hyp_token,top1_prem,w1,top2_prem,w2,top3_prem,w3
+full,Full,TP,entails,entails,0.9972,lyme,many,0.0729,lyme,0.0421,'s,0.0346
+full,Full,TP,entails,entails,0.9972,disease,many,0.0770,lyme,0.0432,'s,0.0340
+full,Full,TP,entails,entails,0.9972,is,many,0.0833,lyme,0.0430,bite,0.0332
+full,Full,TP,entails,entails,0.9972,caused,many,0.0880,lyme,0.0417,bite,0.0329
+full,Full,TP,entails,entails,0.9972,by,many,0.0887,lyme,0.0401,a,0.0328
+full,Full,TP,entails,entails,0.9972,bacteria,many,0.0864,lyme,0.0391,a,0.0329
+full,Full,TP,entails,entails,0.9972,.,many,0.0843,lyme,0.0389,bite,0.0329
+full,Full,FP,neutral,entails,0.8057,gases,solid,0.0503,liquid,0.0495,converts,0.0466
+full,Full,FP,neutral,entails,0.8057,and,solid,0.0504,liquid,0.0491,converts,0.0467
+full,Full,FP,neutral,entails,0.8057,liquids,solid,0.0516,liquid,0.0488,becoming,0.0480
+full,Full,FP,neutral,entails,0.8057,become,solid,0.0527,becoming,0.0498,liquid,0.0486
+full,Full,FP,neutral,entails,0.8057,solids,solid,0.0521,becoming,0.0509,liquid,0.0484
+full,Full,FP,neutral,entails,0.8057,at,becoming,0.0510,solid,0.0503,without,0.0488
+full,Full,FP,neutral,entails,0.8057,low,becoming,0.0507,solid,0.0485,without,0.0485
+full,Full,FP,neutral,entails,0.8057,temperatures,becoming,0.0507,solid,0.0481,without,0.0463
+full,Full,FP,neutral,entails,0.8057,.,becoming,0.0511,solid,0.0489,liquid,0.0455
+c2p_only,C→P only,TP,entails,entails,0.9298,lyme,.,0.0330,do,0.0329,n't,0.0327
+c2p_only,C→P only,TP,entails,entails,0.9298,disease,.,0.0330,do,0.0329,n't,0.0327
+c2p_only,C→P only,TP,entails,entails,0.9298,is,.,0.0330,do,0.0329,n't,0.0327
+c2p_only,C→P only,TP,entails,entails,0.9298,caused,.,0.0330,do,0.0329,n't,0.0327
+c2p_only,C→P only,TP,entails,entails,0.9298,by,.,0.0330,do,0.0329,n't,0.0327
+c2p_only,C→P only,TP,entails,entails,0.9298,bacteria,.,0.0330,do,0.0329,n't,0.0327
+c2p_only,C→P only,TP,entails,entails,0.9298,.,.,0.0330,do,0.0329,n't,0.0327
+c2p_only,C→P only,FP,neutral,entails,0.8033,gases,at,0.0382,high,0.0381,temperatures,0.0377
+c2p_only,C→P only,FP,neutral,entails,0.8033,and,at,0.0382,high,0.0381,temperatures,0.0377
+c2p_only,C→P only,FP,neutral,entails,0.8033,liquids,at,0.0382,high,0.0381,temperatures,0.0377
+c2p_only,C→P only,FP,neutral,entails,0.8033,become,at,0.0382,high,0.0381,temperatures,0.0377
+c2p_only,C→P only,FP,neutral,entails,0.8033,solids,at,0.0382,high,0.0381,temperatures,0.0377
+c2p_only,C→P only,FP,neutral,entails,0.8033,at,at,0.0382,high,0.0381,temperatures,0.0377
+c2p_only,C→P only,FP,neutral,entails,0.8033,low,at,0.0382,high,0.0381,temperatures,0.0377
+c2p_only,C→P only,FP,neutral,entails,0.8033,temperatures,at,0.0382,high,0.0381,temperatures,0.0377
+c2p_only,C→P only,FP,neutral,entails,0.8033,.,at,0.0382,high,0.0381,temperatures,0.0377
+p2c_only,P→C only,TP,entails,entails,0.8035,lyme,many,0.0634,lyme,0.0545,bite,0.0390
+p2c_only,P→C only,TP,entails,entails,0.8035,disease,many,0.0643,lyme,0.0547,bite,0.0389
+p2c_only,P→C only,TP,entails,entails,0.8035,is,many,0.0641,lyme,0.0533,bite,0.0400
+p2c_only,P→C only,TP,entails,entails,0.8035,caused,many,0.0637,lyme,0.0504,bite,0.0419
+p2c_only,P→C only,TP,entails,entails,0.8035,by,many,0.0642,lyme,0.0474,bite,0.0436
+p2c_only,P→C only,TP,entails,entails,0.8035,bacteria,many,0.0661,lyme,0.0455,bite,0.0442
+p2c_only,P→C only,TP,entails,entails,0.8035,.,many,0.0683,lyme,0.0454,bite,0.0438
+p2c_only,P→C only,FP,neutral,entails,0.8850,gases,dye,0.0571,ever,0.0558,becoming,0.0473
+p2c_only,P→C only,FP,neutral,entails,0.8850,and,dye,0.0560,ever,0.0551,becoming,0.0475
+p2c_only,P→C only,FP,neutral,entails,0.8850,liquids,dye,0.0553,ever,0.0548,becoming,0.0470
+p2c_only,P→C only,FP,neutral,entails,0.8850,become,dye,0.0549,ever,0.0547,converts,0.0462
+p2c_only,P→C only,FP,neutral,entails,0.8850,solids,ever,0.0545,dye,0.0544,converts,0.0460
+p2c_only,P→C only,FP,neutral,entails,0.8850,at,ever,0.0543,dye,0.0537,converts,0.0452
+p2c_only,P→C only,FP,neutral,entails,0.8850,low,ever,0.0541,dye,0.0534,converts,0.0445
+p2c_only,P→C only,FP,neutral,entails,0.8850,temperatures,dye,0.0537,ever,0.0534,becoming,0.0450
+p2c_only,P→C only,FP,neutral,entails,0.8850,.,dye,0.0541,ever,0.0522,becoming,0.0467
+c2p_p2c,C→P + P→C,TP,entails,entails,0.9160,lyme,many,0.0425,lyme,0.0391,by,0.0364
+c2p_p2c,C→P + P→C,TP,entails,entails,0.9160,disease,many,0.0421,lyme,0.0390,by,0.0359
+c2p_p2c,C→P + P→C,TP,entails,entails,0.9160,is,many,0.0417,lyme,0.0389,caused,0.0365
+c2p_p2c,C→P + P→C,TP,entails,entails,0.9160,caused,many,0.0414,lyme,0.0385,caused,0.0370
+c2p_p2c,C→P + P→C,TP,entails,entails,0.9160,by,many,0.0409,lyme,0.0377,caused,0.0369
+c2p_p2c,C→P + P→C,TP,entails,entails,0.9160,bacteria,many,0.0401,caused,0.0367,lyme,0.0366
+c2p_p2c,C→P + P→C,TP,entails,entails,0.9160,.,many,0.0394,caused,0.0365,lyme,0.0354
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,gases,converts,0.0475,ever,0.0453,becoming,0.0441
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,and,converts,0.0479,ever,0.0446,temperatures,0.0444
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,liquids,converts,0.0491,temperatures,0.0444,ever,0.0437
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,become,converts,0.0506,ever,0.0432,temperatures,0.0429
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,solids,converts,0.0520,ever,0.0432,becoming,0.0427
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,at,converts,0.0525,becoming,0.0443,ever,0.0435
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,low,converts,0.0521,becoming,0.0456,ever,0.0438
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,temperatures,converts,0.0512,becoming,0.0461,ever,0.0439
+c2p_p2c,C→P + P→C,FP,neutral,entails,0.5614,.,converts,0.0500,becoming,0.0459,ever,0.0439

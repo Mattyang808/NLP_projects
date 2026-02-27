@@ -1,0 +1,5 @@
+mode,best_val_acc,final_train_loss,epochs_trained,train_time_sec,ckpt_path,test_acc,precision,recall,f1,tp,tn,fp,fn,optimizer,lr,epochs,patience,embed_dim,nhead,num_layers,dim_ff,dropout,timestamp
+full,0.767638,0.165807,8,172.984,model_c_danli_full_best.pt,0.766698,0.703052,0.711401,0.707202,599,1031,253,243,Adam,0.0001,10,2,128,8,4,512,0.2,1760693569
+c2p_only,0.773773,0.291735,5,96.135,model_c_danli_c2p_only_best.pt,0.754468,0.697044,0.672209,0.684401,566,1038,246,276,Adam,0.0001,10,2,128,8,4,512,0.2,1760693665
+p2c_only,0.759969,0.358798,3,56.605,model_c_danli_p2c_only_best.pt,0.67968,0.578844,0.7019,0.634461,591,854,430,251,Adam,0.0001,10,2,128,8,4,512,0.2,1760693722
+c2p_p2c,0.769939,0.232897,6,124.547,model_c_danli_c2p_p2c_best.pt,0.762465,0.693901,0.716152,0.704851,603,1018,266,239,Adam,0.0001,10,2,128,8,4,512,0.2,1760693847
